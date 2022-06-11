@@ -1,0 +1,216 @@
+body{
+	width: 100%;
+    height: auto;
+    background-image: url("bgfix.png");
+    background-size: contain 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin:auto;
+    font-family: myriad pro regular;
+}
+
+.canvas{
+width: 990px;
+margin: auto;
+border: 1px solid black;
+}
+
+.header{
+font-size: xx-large;
+font-weight: bold;
+padding: 30px;
+}
+
+.menu{
+font-size: 17px;
+background-color: darkgreen;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline-table;
+}
+
+.menu ul li:hover{
+    background-color: lightpink;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+
+.menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+.isi{
+font-size: 12px;
+min-height: 400px;
+padding: 40px;
+margin-left: 10px;
+}
+
+.isi p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 60px;
+}
+ 
+.isi p:nth-child(2){
+    font-family: calibri;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 55px;
+}
+ 
+.isi p:nth-child(3){
+    font-size: 30px;
+    line-height: 25px;
+}
+ 
+
+.isi p{
+    line-height: 5px;
+    margin: 70px 50px 10px;
+}
+
+.model{
+    height: 250px;
+    position: absolute;
+    transform: translate(60%, -50%);
+    bottom: 25px;
+    left: 50%;
+    width:250px; border-radius: 250px; margin-top:25px;
+    float: right;
+}
+
+.footer{
+font-size: 15px;
+text-align: center;
+padding: 15px;
+background-color: transparent;
+}
+
+.footer p{
+    background-color: lightgreen;
+}
+
+.jadwalsolat p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.jadwalsolat table, th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+.jadwalsolat th{
+    background-color: seagreen;
+}
+
+.form {
+    text-align: center;
+}
+
+.jadwalterawih p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tambah_terawih p {
+    font-size: 10px;
+}
+
+
+.jadwalterawih table, th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+.jadwalterawih th{
+    background-color: seagreen;
+}
+
+.jadwalbuka p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.jadwalbuka table, th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+.jadwalbuka th{
+    background-color: seagreen;
+}
+
+.jadwalbuka tr:nth-child(20){
+ background-color: orange;
+}
+
+.jadwalbuka tr:nth-child(04){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(07){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(09){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(12){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(15){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(17){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(22){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(24){
+ background-color: lightsteelblue;
+}
+
+.jadwalbuka tr:nth-child(27){
+ background-color: lightsteelblue;
+}
+
+.jadwalterawih tr:nth-child(20){
+ background-color: orange;
+}
+
+.jadwalsolat tr:nth-child(20){
+ background-color: orange;
+}
